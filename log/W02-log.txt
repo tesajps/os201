@@ -1,0 +1,3 @@
+OS 2020 1
+Assignments of Week 01: done!
+Encrypted information on https://github.com/tesajps/os201/blob/master/log/os-en.txt.gpg
