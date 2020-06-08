@@ -1,7 +1,7 @@
 ---
 title: URLs
 layout: template
-filename: url
+filename: url.md
 --- 
 ## Welcome to My GitHub Pages
 
