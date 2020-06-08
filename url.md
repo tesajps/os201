@@ -7,4 +7,4 @@ permalink: /URLs/
 * [OS.VLSM.ORG](https://os.vlsm.org/)
 * [Tesalonika Julia Petronella Sagala](../)
 
--- CBK
+-- tesajps, 2020
