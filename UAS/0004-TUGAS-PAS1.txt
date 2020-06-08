@@ -1,0 +1,37 @@
+Script started on Tue 09 Jun 2020 12:18:01 AM WIB
+tesalonika.julia@badak:~$ PS1="$ "
+$ echo $GitHubUser
+tesajps
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ eval $PSTAMP
+200609-001842-a119-tesalonika.julia/>
+$ PS1="\$(eval \$PSTAMP)"
+200609-001905-cb38-tesalonika.julia/> echo -e $CEKSAYA
+tesajps ZCZCSCRIPTSTART 200606-154739 tesajps
+ tesajps tesajps 200606-154809-4b5e-tesalonika.julia/ 200606-154809 SEQOK SUMOK 4b5eadda
+ tesajps tesajps 200606-154822-675a-tesalonika.julia/ 200606-154822 SEQOK SUMOK 675ab162
+ tesajps tesajps 200606-154825-6122-tesalonika.julia/ 200606-154825 SEQOK SUMOK 6122676c
+ tesajps tesajps 200606-154833-5bdc-tesalonika.julia/ 200606-154833 SEQOK SUMOK 5bdc95d2
+ tesajps ZCZCSCRIPTSTOP 200606-154843 SEQOK
+
+200609-001915-230e-tesalonika.julia/> echo -e $CEKSEBELA1
+tesajps ZCZCSCRIPTSTART 200603-091637 ThatDecoff
+ tesajps ThatDecoff 200603-091702-572e-UAS/ 200603-091702 SEQOK SUMOK 572ed6dc
+ tesajps ThatDecoff 200603-091707-42f9-UAS/ 200603-091707 SEQOK SUMOK 42f9d43e
+ tesajps ThatDecoff 200603-091713-acdc-UAS/ 200603-091713 SEQOK SUMOK acdc875b
+ tesajps ThatDecoff 200603-091718-8457-UAS/ 200603-091718 SEQOK SUMOK 8457dd3b
+ tesajps ZCZCSCRIPTSTOP 200603-091725 SEQOK
+
+200609-001923-99c0-tesalonika.julia/> echo -e $CEKSEBELA2
+tesajps ZCZCSCRIPTSTART 200608-151821 thegalang
+ tesajps thegalang 200608-151851-b68b-UAS/ 200608-151851 SEQOK SUMOK b68bcd18
+ tesajps thegalang 200608-151859-24bd-UAS/ 200608-151859 SEQOK SUMOK 24bdc4e9
+ tesajps thegalang 200608-151902-a327-UAS/ 200608-151902 SEQOK SUMOK a327320c
+ tesajps thegalang 200608-151911-d931-UAS/ 200608-151911 SEQOK SUMOK d93183a2
+ tesajps ZCZCSCRIPTSTOP 200608-151915 SEQOK
+
+200609-001926-2b96-tesalonika.julia/> exit
+exit
+
+Script done on Tue 09 Jun 2020 12:19:37 AM WIB
